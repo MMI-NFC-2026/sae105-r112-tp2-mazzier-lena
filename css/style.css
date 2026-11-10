@@ -28,4 +28,10 @@ html:has(.menu:popover-open) {
 .burger {
   cursor: pointer;
 }
+@media (prefers-reduced-motion: reduce) {
+  .menu,
+  .menu .burger--close {
+    transition: none;
+  }
+}
 
