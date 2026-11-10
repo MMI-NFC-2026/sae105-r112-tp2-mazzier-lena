@@ -41,6 +41,7 @@ html:has(.menu:popover-open) {
 .burger {
   cursor: pointer;
 }
+/* Utilisation de média query pour désactiver les transitions si l'utilisateur préfère ne pas en voir. Utilisation  de la virgule permet de regrouper deux sélecteurs pour la même règle CSS. */
 @media (prefers-reduced-motion: reduce) {
   .menu,
   .menu .burger--close {
