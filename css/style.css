@@ -27,6 +27,8 @@ pas de bord (épaisseur 0)
   transform: rotate(90deg);
   transition: 400ms;
 }
+/* Utilisation de html qui est la racine du document HTML. On veut qu'il ne puisse pas scroller quand le menu (.menu) est ouvert.
+On utilise :has() pour tester un élément enfant. La page est donc figé tant que le menu est ouvert*/
 html:has(.menu:popover-open) {
   overflow: hidden;
 }
