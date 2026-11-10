@@ -14,6 +14,13 @@
   .menu:popover-open {
     opacity: 0;
   }
+  .menu:popover-open .burger--close {
+    transform: none;
+  }
+}
+.menu:popover-open .burger--close {
+  transform: rotate(90deg);
+  transition: 400ms;
 }
 html:has(.menu:popover-open) {
   overflow: hidden;
