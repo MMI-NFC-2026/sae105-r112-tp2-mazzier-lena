@@ -23,6 +23,7 @@ paramétrage de l'opacité à 0 (transparent). */
   .menu:popover-open {
     opacity: 0;
   }
+  /* déclaration d'une animation à la fermeture du bouton */
   .menu:popover-open .burger--close {
     transform: none;
   }
