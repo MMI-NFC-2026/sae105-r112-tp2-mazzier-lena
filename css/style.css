@@ -32,6 +32,7 @@ On utilise :has() pour tester un élément enfant et on ajoute overflow: hidden 
 html:has(.menu:popover-open) {
   overflow: hidden;
 }
+/* ajout de la propriété CSS cursor qui permet de changer l'apparence du curseur. Ici l'apparence change quand le curseur est pointer sur le logo du menu*/
 .burger {
   cursor: pointer;
 }
